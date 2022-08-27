@@ -1,7 +1,7 @@
 package me.xlfrie.flymod.modules;
 
 import me.xlfrie.flymod.FlyMod;
-import me.xlfrie.flymod.Keybinds;
+import me.xlfrie.flymod.setup.Keybinds;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.client.event.InputEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

@@ -3,6 +3,7 @@ package me.xlfrie.flymod;
 import com.mojang.logging.LogUtils;
 import me.xlfrie.flymod.modules.NoFallModule;
 import me.xlfrie.flymod.setup.Config;
+import me.xlfrie.flymod.setup.Keybinds;
 import me.xlfrie.flymod.setup.klstch;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
