@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "me.xlfrie.flymod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BlockMixin",
+    "PlayerMovePacket",
+    "ServerRestricted",
+    "XRayRender"
+  ],
+  "client": [
+    "LightTextureMixin",
+    "LocalPlayerMixin",
+    "MinecraftMixin",
+    "PacketMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "flymod.mixin-refmap.json"
+}
